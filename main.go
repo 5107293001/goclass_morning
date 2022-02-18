@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/shres/goclass_morning/initials"
-	"github.com/shres/goclass_morning/loopexample"
-	"github.com/shres/goclass_morning/examplefunctions"
+	 examplefunctions"github.com/shres/goclass_morning/loopexample/example_functions"
+     loopexample"github.com/shres/goclass_morning/loopexample"
 )
 
 func main() {
-	  initials.Init() 
-	loopexample.InitLoopExample()
-	examplefunctions.InitExampleFunctions()
+	//  initials.Init()
+	  loopexample.InitLoopExample()
+	 examplefunctions.InitExampleFunctions()
+	
 }
