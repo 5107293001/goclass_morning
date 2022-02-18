@@ -28,7 +28,7 @@ s, _ = sum (8,10)
 fmt.Println("sum =", s)
 x, y := "kathmandu" , "gorkha"
 fmt.Println(x,y)
-x,y = swap (x,y)
+// x,y = swap (x,y)
 fmt.Println(x,y)
 
 
@@ -41,9 +41,9 @@ func sum(a int, b int) (int,error) {
 	sum := a + b
 	return sum, nil
 }
-	func swap (x, y string) (string,string) {
-		return y , x
-	}
+	// func swap (x, y string) (string,string) {
+	// 	return y , x
+	// }
 
 
  
