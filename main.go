@@ -1,8 +1,9 @@
 package main
 
-import (
+import ( 
+	
 	examplestructs"github.com/shres/goclass_morning/loopexample/example_structs"
-	examplefunctions"github.com/shres/goclass_morning/loopexample/example_functions"
+	// examplefunctions"github.com/shres/goclass_morning/loopexample/example_functions"
 )
 
 func main() {
@@ -14,8 +15,10 @@ func main() {
 
 	// exampledatastructure.InitDataStructure()
 	// examplefunctions.InitVariadicFunction()
-	examplestructs.InitExampleStructs()
-	examplefunctions.InitExampleClosures ()
+	examplestructs.InitExampleStruct()
+	// examplefunctions.InitExampleClosures ()
+	examplestructs.InitExampleStructs2()
+	
 
 
 }
