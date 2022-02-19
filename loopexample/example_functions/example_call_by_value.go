@@ -27,7 +27,7 @@ func swapbyvalue(a, b int) int {
 
 func swapbyreference(a, b *int) int {
     fmt.Printf("IN SWAP Before Swap::Value of x = %d, Value of y = %d\n", *a, *b)
-    var  temp int
+    var temp  int
     temp = *a
     *a = *b
     *b = temp
