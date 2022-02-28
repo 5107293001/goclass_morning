@@ -1,0 +1,6 @@
+golang!
+hello there
+golang!
+hello there
+i am writing string!
+buffered string

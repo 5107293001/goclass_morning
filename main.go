@@ -1,11 +1,14 @@
 package main
 
-import ( 
-	
-	examplestructs"github.com/shres/goclass_morning/loopexample/example_structs"
+import (
+	// "github.com/shres/goclass_morning/examplefilehandling"
+	// numberparsing "github.com/shres/goclass_morning/number_parsing"
+	"fmt"
+	"os"
+
+	// examplefilehandling "github.com/shres/goclass_morning/examplefilehandling"
 	// examplefunctions"github.com/shres/goclass_morning/loopexample/example_functions"
 )
-
 func main() {
 	//initials.Init()
 	//   loopexample.InitLoopExample()
@@ -15,10 +18,20 @@ func main() {
 
 	// exampledatastructure.InitDataStructure()
 	// examplefunctions.InitVariadicFunction()
-	examplestructs.InitExampleStruct()
+	// examplestructs.InitExampleStruct()
 	// examplefunctions.InitExampleClosures ()
-	examplestructs.InitExampleStructs2()
-	
+	// examplestructs.InitExampleStructs2()
+// 	numberparsing.InitNumberParsing()
+// 	numberparsing.InitRandomNumbers()
+//    examplefilehandling.InitFileHandling()
+//    examplefilehandling.InitFileWrite()
+//    examplefilehandling.InitFileWrite()
 
+//    extestingandbenchmark.InitTestingAndBenchmark()
+
+args := os.Args
+argsWithoutname := args[1:]
+fmt.Println(args)
+fmt.Println(argsWithoutname)
 
 }
