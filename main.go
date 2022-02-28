@@ -3,11 +3,12 @@ package main
 import (
 	// "github.com/shres/goclass_morning/examplefilehandling"
 	// numberparsing "github.com/shres/goclass_morning/number_parsing"
-	"fmt"
-	"os"
+	// "fmt"
+	// "os"
 
 	// examplefilehandling "github.com/shres/goclass_morning/examplefilehandling"
 	// examplefunctions"github.com/shres/goclass_morning/loopexample/example_functions"
+	numberparsing"github.com/shres/goclass_morning/number_parsing"
 )
 func main() {
 	//initials.Init()
@@ -21,7 +22,7 @@ func main() {
 	// examplestructs.InitExampleStruct()
 	// examplefunctions.InitExampleClosures ()
 	// examplestructs.InitExampleStructs2()
-// 	numberparsing.InitNumberParsing()
+	numberparsing.InitNumberParsing()
 // 	numberparsing.InitRandomNumbers()
 //    examplefilehandling.InitFileHandling()
 //    examplefilehandling.InitFileWrite()
@@ -29,9 +30,9 @@ func main() {
 
 //    extestingandbenchmark.InitTestingAndBenchmark()
 
-args := os.Args
-argsWithoutname := args[1:]
-fmt.Println(args)
-fmt.Println(argsWithoutname)
+// args := os.Args
+// argsWithoutname := args[1:]
+// fmt.Println(args)
+// fmt.Println(argsWithoutname)
 
 }
