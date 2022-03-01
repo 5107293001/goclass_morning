@@ -37,8 +37,18 @@ func initSliceExample() {
     fmt.Println(ex2)
 
 //two D with slices (homework)
+twoD := make([] [] int,3)
 
+for i:= 0; i < 3; i++ {  
+	ilen := i+1
+	twoD[i] = make([]int, ilen )
+	for j := 0; j < ilen; j++ {
+		twoD[i][j] = i+j
+	}
+}
+ fmt.Println("2d slices = ", twoD)
 
 }
 
 
+ 

@@ -8,7 +8,10 @@ import (
 
 	// examplefilehandling "github.com/shres/goclass_morning/examplefilehandling"
 	// examplefunctions"github.com/shres/goclass_morning/loopexample/example_functions"
-	numberparsing"github.com/shres/goclass_morning/number_parsing"
+	// "github.com/shres/goclass_morning/examplefilehandling/goroutineexample"
+	_ "github.com/shres/goclass_morning/loopexample/example_functions/example2_array"
+	_ "github.com/shres/goclass_morning/number_parsing/example_error_handling"
+	httpclientserver"github.com/shres/goclass_morning/http_client_server"
 )
 func main() {
 	//initials.Init()
@@ -22,7 +25,7 @@ func main() {
 	// examplestructs.InitExampleStruct()
 	// examplefunctions.InitExampleClosures ()
 	// examplestructs.InitExampleStructs2()
-	numberparsing.InitNumberParsing()
+	// numberparsing.InitNumberParsing()
 // 	numberparsing.InitRandomNumbers()
 //    examplefilehandling.InitFileHandling()
 //    examplefilehandling.InitFileWrite()
@@ -34,5 +37,8 @@ func main() {
 // argsWithoutname := args[1:]
 // fmt.Println(args)
 // fmt.Println(argsWithoutname)
-
+//   exampleerrorhandling.InitExampleErrorHandling()
+// goroutineexample.InitGoroutingExample()
+// httpclientserver.InitHttpClient()
+httpclientserver.InitHttpServer()
 }
