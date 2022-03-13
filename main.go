@@ -6,9 +6,10 @@ import (
 	// "fmt"
 	// "os"
 
+	example_time_defer_sort "github.com/shres/goclass_morning/example_time_defer_sort"
 	_ "github.com/shres/goclass_morning/number_parsing"
 
-	goroutineexample "github.com/shres/goclass_morning/examplefilehandling/goroutineexample"
+	_ "github.com/shres/goclass_morning/examplefilehandling/goroutineexample"
 	_ "github.com/shres/goclass_morning/http_client_server"
 	_ "github.com/shres/goclass_morning/number_parsing/example_error_handling"
 )
@@ -38,7 +39,9 @@ func main() {
 	// fmt.Println(args)
 	// fmt.Println(argsWithoutname)
 	//   exampleerrorhandling.InitExampleErrorHandling()
-	goroutineexample.InitGoroutingExample()
+	// goroutineexample.InitGoroutingExample()
 	// httpclientserver.InitHttpClient()
 	// httpclientserver.InitHttpServer()
+	// exampletime.InitExampleTime()
+	example_time_defer_sort.InitDeferExample()
 }
